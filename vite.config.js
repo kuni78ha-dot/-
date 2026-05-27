@@ -1,11 +1,6 @@
-# 評価表アプリ
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-## 起動方法
-
-npm install
-npm run dev
-
-## Vercel公開
-
-GitHubへアップロード後、
-VercelへImportしてください。
+export default defineConfig({
+  plugins: [react()],
+})

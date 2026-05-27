@@ -1,23 +1,11 @@
-{
-  "name": "evaluation-app",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "lucide-react": "^0.468.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-qr-code": "^2.0.15",
-    "recharts": "^2.15.0",
-    "xlsx": "^0.18.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.0.5"
-  }
-}
+# 評価表アプリ
+
+## 起動方法
+
+npm install
+npm run dev
+
+## Vercel公開
+
+GitHubへアップロード後、
+VercelへImportしてください。

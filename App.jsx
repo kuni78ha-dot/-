@@ -1,11 +1,9 @@
-# 評価表アプリ
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
 
-## 起動方法
-
-npm install
-npm run dev
-
-## Vercel公開
-
-GitHubへアップロード後、
-VercelへImportしてください。
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
